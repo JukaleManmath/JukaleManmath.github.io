@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manmath Jukale - AI Engineer & Software Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">MJ</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Manmath Jukale</h1>
+
+      <div class="hero-ticker-wrap">
+        <span class="hero-ticker-prefix">I build as a&nbsp;</span>
+        <span class="hero-ticker" id="heroTicker"></span>
+        <span class="hero-ticker-cursor">|</span>
+      </div>
+
+      <p class="hero-tagline">Curious builder. From zero to one, across AI, backend, and everything in between.</p>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-3d">Learn More About Me</a>
+        <a href="https://drive.google.com/file/d/1ArRvXqfEVqPbd7gOyS00TWAapS3VZ3oB/view?usp=share_link" target="_blank" class="btn btn-outline">View Resume</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+      <div class="hero-graph">
+        <p class="hero-graph-label">2,384 contributions in the last year</p>
+        <img
+          src="https://ghchart.rshah.org/JukaleManmath"
+          alt="Manmath Jukale GitHub contribution graph"
+          class="hero-graph-img"
+          onerror="this.style.display='none'; document.getElementById('graph-fallback').style.display='block';"
+        />
+        <p id="graph-fallback" style="display:none; font-family: monospace; font-size:13px; color:#78716c; padding: 12px 0;">Could not load contribution graph. View on <a href="https://github.com/JukaleManmath" target="_blank">GitHub ↗</a></p>
+        <a href="https://github.com/JukaleManmath" target="_blank" class="hero-graph-link">github.com/JukaleManmath ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+
+        <!-- LEFT: bio -->
+        <div class="about-left">
+          <div class="about-bio">
+            <p>Software engineer with 2+ years building production systems across healthcare, finance, and education, and shipping solutions for 5+ individual clients. I started in backend and full-stack engineering, then moved deeper into AI, where the real complexity lives.</p>
+            <p>I work at the intersection of backend systems, generative AI, and agentic architectures. That means designing ingestion pipelines that process millions of records, building RAG systems that replace hours of manual lookup with a single query, and wiring together LLM workflows that actually hold up in production.</p>
+            <p>I've gone from writing REST APIs and data models to fine-tuning prompts, building multi-agent systems, and deploying on Bedrock and Lambda. The throughline is the same: understand the problem, build the right system, make it observable and reliable.</p>
+            <p>I care about systems that are built to last, not just to demo.</p>
+            <div class="about-open-to">
+              <span class="open-to-label">Open to</span>
+              <span class="open-to-tag">Software Engineer</span>
+              <span class="open-to-tag">Backend Engineer</span>
+              <span class="open-to-tag">AI Engineer</span>
+              <span class="open-to-tag">Full Stack Engineer</span>
+              <span class="open-to-tag">Forward Deployed Engineer</span>
+            </div>
+            <p class="about-cta">Building something interesting? <a href="#contact">Let's talk.</a></p>
+          </div>
+        </div>
+
+        <!-- RIGHT: large photo -->
+        <div class="about-photo-wrap">
+          <img src="photo.jpg" alt="Manmath Jukale" class="about-photo" />
+        </div>
+
+        <!-- STATS: full-width row below -->
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Roles</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Clients</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <img class="edu-logo" src="https://www.google.com/s2/favicons?domain=binghamton.edu&sz=64" alt="Binghamton University" onerror="this.style.display='none'" />
+            <div class="edu-body">
+              <div class="edu-top">
+                <div>
+                  <p class="edu-school">State University of New York at Binghamton</p>
+                  <p class="edu-degree">Master of Science in Computer Science</p>
+                  <p class="edu-gpa">GPA: 3.64 / 4.00</p>
+                </div>
+                <div class="edu-meta">
+                  <span class="edu-location">Binghamton, NY</span>
+                  <span class="edu-date">Aug 2024 – May 2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <img class="edu-logo" src="https://logo.clearbit.com/unipune.ac.in" alt="Savitribai Phule Pune University" onerror="this.outerHTML='<span class=\'edu-logo-fallback\'>SPPU</span>'" />
+            <div class="edu-body">
+              <div class="edu-top">
+                <div>
+                  <p class="edu-school">Savitribai Phule Pune University</p>
+                  <p class="edu-degree">Bachelor of Engineering in Computer Engineering</p>
+                  <p class="edu-gpa">GPA: 3.61 / 4.00</p>
+                </div>
+                <div class="edu-meta">
+                  <span class="edu-location">Pune, India</span>
+                  <span class="edu-date">Aug 2019 – May 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <img class="timeline-logo" src="https://www.google.com/s2/favicons?domain=binghamton.edu&sz=64" alt="Binghamton University logo" onerror="this.style.display='none'" />
+            <div class="timeline-meta-text">
+              <div class="timeline-meta-top">
+                <span class="timeline-tag tag-current">Current</span>
+                <span class="timeline-date">May 2026 – Present</span>
+              </div>
+              <h3 class="timeline-role">Software Engineer - Assistive Tech & Accessibility</h3>
+              <p class="timeline-company">Binghamton University · Services for Students with Disabilities</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>The disability services office was drowning in manual document reviews. Built AI-assisted workflows that automate how accommodation requests get processed, so staff spend time on students, not paperwork.</li>
+            <li>Wired in NLP pipelines to automatically parse, classify, and route accommodation forms for 500+ registered students. What used to be a manual sort is now handled at intake.</li>
+            <li>Sat with the operations team, understood where the actual friction was, and built software that fixed it. Accessibility-focused features that get used, not just shipped.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <img class="timeline-logo" src="https://www.google.com/s2/favicons?domain=binghamton.edu&sz=64" alt="Binghamton University logo" onerror="this.style.display='none'" />
+            <div class="timeline-meta-text">
+              <div class="timeline-meta-top">
+                <span class="timeline-tag tag-research">Research</span>
+                <span class="timeline-date">May 2025 – May 2026</span>
+              </div>
+              <h3 class="timeline-role">Graduate Student Assistant - Accessibility</h3>
+              <p class="timeline-company">Binghamton University · Technology Accessibility Advisory Group</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>University platforms had accessibility issues students were silently working around. Audited the platforms against WCAG 2.1 AA and fixed what was broken, not just flagged it.</li>
+            <li>Built accessible UI components that worked for students with disabilities from the start. Pushed accessibility requirements into code review rather than leaving them to post-launch QA.</li>
+            <li>Worked across design, dev, and QA to make accessibility a first-class part of how the team shipped software. Less rework, better outcomes for users who actually needed it.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <img class="timeline-logo" src="https://www.google.com/s2/favicons?domain=mihin.org&sz=64" alt="MIHIN logo" onerror="this.style.display='none'" />
+            <div class="timeline-meta-text">
+              <div class="timeline-meta-top">
+                <span class="timeline-tag tag-internship">Internship</span>
+                <span class="timeline-date">Sep 2025 – Feb 2026</span>
+              </div>
+              <h3 class="timeline-role">Software Engineer Intern</h3>
+              <p class="timeline-company">Michigan Health Information Network</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>The ingestion pipeline was a monolith - one failure took everything down. Broke it into independent Lambda microservices where each stage deploys, fails, and recovers on its own. Now processing 800K+ records daily with 40% fewer errors.</li>
+            <li>Ops team was manually reading logs to figure out what broke. Built an LLM triage agent on Bedrock that reads the logs, explains root causes, and tells the team what to do. Cut manual resolution time by 30% and eliminated most engineering escalations.</li>
+            <li>Built a RAG assistant over 100+ health system runbooks so ops could ask questions in plain English instead of digging through docs. Self-serve, no engineering needed.</li>
+            <li>Replaced the "search through logs manually" process with CloudWatch dashboards and SNS alerts across 100+ partner feeds. Problems now surface as readable summaries, not noise.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <div class="timeline-logo timeline-logo-text">CC</div>
+            <div class="timeline-meta-text">
+              <div class="timeline-meta-top">
+                <span class="timeline-tag tag-fulltime">Full-time</span>
+                <span class="timeline-date">May 2023 – May 2024</span>
+              </div>
+              <h3 class="timeline-role">Software Engineer</h3>
+              <p class="timeline-company">CyberCore</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Client knowledge base lookups took 8 minutes manually. Built a RAG pipeline on LangChain, OpenAI embeddings, and pgvector that answered the same questions in under 30 seconds. The team stopped searching and started asking.</li>
+            <li>Shipped a live customer support chatbot grounded in real product and policy documents, with session state and context management across turns. Built with OpenAI API and LangChain, deployed for an actual client.</li>
+            <li>LLM inference is slow. Built async REST endpoints in FastAPI and DRF that hand off model work to Celery/Redis background queues, so the API always responds in under 2 seconds regardless of what the model is doing.</li>
+            <li>Kept writing the same document loading, chunking, and retrieval code across client projects. Extracted it into shared components that three teams could drop in without rewriting anything. Cut integration time by 50%.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <img class="timeline-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" alt="Microsoft logo" onerror="this.style.display='none'" />
+            <div class="timeline-meta-text">
+              <div class="timeline-meta-top">
+                <span class="timeline-tag tag-internship">Internship</span>
+                <span class="timeline-date">May 2022 – Aug 2022</span>
+              </div>
+              <h3 class="timeline-role">Software Engineer Intern</h3>
+              <p class="timeline-company">Nuance Communications · Microsoft</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Physician-facing workflows can't receive bad data. Built strict validation across Dragon Medical Advisor APIs, checking every field, schema, and downstream contract before anything reached clinical systems.</li>
+            <li>Wrote SQL routing logic that feeds patient and encounter data into the clinical NLP pipeline. Covered 10+ real edge cases: missing records, malformed fields, downstream failures. Every path tested and handled.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <!-- FILTER BUTTONS -->
+      <div class="project-filters">
+        <button class="filter-btn" data-filter="all">All <span class="filter-count" id="count-all"></span></button>
+        <button class="filter-btn active" data-filter="featured">Featured</button>
+        <button class="filter-btn" data-filter="AI & ML">AI & ML</button>
+        <button class="filter-btn" data-filter="Backend">Backend</button>
+        <button class="filter-btn" data-filter="Full Stack">Full Stack</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card" data-category="AI & ML" data-featured="true">
+          <div class="project-top">
+            <h3 class="project-name">PanelReview</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/panel-review" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Five AI engineers debate your code live. One panel, zero blind spots. Five LangGraph agents (each a different engineering persona) independently analyze code via Groq, stream verdicts over WebSocket, and a synthesis agent reconciles conflicts with a severity-ranked roast score.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Django</span><span>LangGraph</span><span>Multi-Agent</span><span>Groq</span><span>Next.js</span><span>WebSocket</span><span>Celery</span><span>Redis</span><span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML" data-featured="true">
+          <div class="project-top">
+            <h3 class="project-name">agent-eval-cli</h3>
+            <div class="project-links">
+              <span class="project-badge">894+ PyPI downloads</span>
+              <a href="https://github.com/JukaleManmath/agent-eval-cli" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Open-source CLI for multi-turn AI agent simulation and evaluation. Define test scenarios in YAML, run against any HTTP agent endpoint, and get structured pass/fail reports with local scoring - no cloud dependency.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Groq</span><span>sentence-transformers</span><span>pytest</span><span>GitHub Actions</span><span>CI/CD</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Backend">
+          <div class="project-top">
+            <h3 class="project-name">Healthcare-Record-Manager</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Healthcare-Record-Manager" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Production-ready AWS-native healthcare platform with HIPAA-aligned controls, RBAC across five roles, and full Infrastructure as Code via CloudFormation. Handles patient records, audit logging, and encrypted storage at scale.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>PostgreSQL</span><span>AWS</span><span>Docker</span><span>CloudFormation</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">Agentic Travel API</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/agentic-travel-recommendation-api" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">MCP-enabled FastAPI service that lets AI agents query member travel history, loyalty tier, and partner rules to generate personalized travel recommendations with real-time partner compliance enforcement.</p>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>MCP</span><span>asyncio</span><span>Docker</span><span>pytest</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Backend" data-featured="true">
+          <div class="project-top">
+            <h3 class="project-name">Trading Signal API</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/trading-signal-api" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Real-time trading signal generation platform. Ingests live market data from Finnhub, Alpha Vantage, and Binance, streams through Kafka, and produces BUY/SELL/HOLD signals using five configurable technical indicators.</p>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>Kafka</span><span>PostgreSQL</span><span>Redis</span><span>NumPy</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Full Stack">
+          <div class="project-top">
+            <h3 class="project-name">Legal AI Assistant</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Legal-AI-Assistant" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">AI-powered legal document analysis tool. Upload PDFs, ask questions, get answers with source citations. Built on Gemini AI with a vector search backend for accurate retrieval.</p>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>React</span><span>TypeScript</span><span>Gemini</span><span>ChromaDB</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">Medguard DeID</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Medguard-DeID" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Backend service that de-identifies Protected Health Information (PHI) from clinical text using a locally-run LLM via Ollama combined with spaCy NLP validation, exposed as a FastAPI REST endpoint.</p>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>Ollama</span><span>spaCy</span><span>LLM</span><span>NLP</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Backend">
+          <div class="project-top">
+            <h3 class="project-name">ThrottleX</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/ThrottleX" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Production-grade API Gateway implementing Fixed Window, Sliding Log, and Token Bucket rate-limiting strategies with Redis-backed distributed state, JWT auth, and Prometheus monitoring.</p>
+          <div class="project-tags">
+            <span>Java</span><span>Spring Boot</span><span>Redis</span><span>JWT</span><span>Docker</span><span>Prometheus</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">Insurance QA Bot</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Insurance-policies-QABot" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Streamlit QA chatbot that lets users upload insurance policy PDFs and ask natural language questions, powered by GPT-3.5-turbo, Lyzr, and WeaviateVectorStore.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Streamlit</span><span>OpenAI</span><span>RAG</span><span>Weaviate</span><span>Lyzr</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">Cold Mail Generator</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/cold-mail-generator-tool" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">AI-powered cold email generator that leverages Groq LLM and ChromaDB to craft personalized outreach emails grounded in portfolio and job description data.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Groq</span><span>ChromaDB</span><span>LLM</span><span>Jupyter</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">GPT Fine-Tuning Pipeline</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Fine_Tuning_OpenAI_GPT_models" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Step-by-step implementation for fine-tuning GPT-3.5 and GPT-4 on custom JSONL datasets. Covers data preparation, training configuration, evaluation, and deployment for specialized task performance.</p>
+          <div class="project-tags">
+            <span>Python</span><span>OpenAI API</span><span>GPT-3.5</span><span>GPT-4</span><span>Fine-Tuning</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">Fake News Classifier</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Fake_New_Classification" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">ML pipeline that classifies news articles as real or fake using the WELFake dataset. Covers feature extraction, model training, and evaluation across multiple classifiers.</p>
+          <div class="project-tags">
+            <span>Python</span><span>scikit-learn</span><span>NLP</span><span>ML</span><span>Jupyter</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="AI & ML">
+          <div class="project-top">
+            <h3 class="project-name">CSV Analyzer</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/CSV-Analyzer" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Streamlit web app that lets users upload CSV files and receive AI-powered insights, visualizations, and strategic recommendations via Lyzr AI.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Streamlit</span><span>Pandas</span><span>Lyzr AI</span><span>Data Analysis</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Full Stack">
+          <div class="project-top">
+            <h3 class="project-name">IMDb Clone</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/IMDb-Clone" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Responsive movie database app integrating the TMDb API for dynamic movie search, filtering, sorting, and pagination. Deployed on Netlify.</p>
+          <div class="project-tags">
+            <span>React</span><span>Tailwind CSS</span><span>TMDb API</span><span>JavaScript</span><span>Netlify</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Full Stack">
+          <div class="project-top">
+            <h3 class="project-name">Multiplayer Chess</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Multiplayer-Chess" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">Fully functional chess game with CLI and Pygame GUI, including complete rule enforcement: castling, en passant, promotion, checkmate and stalemate detection.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Pygame</span><span>OOP</span><span>Game Logic</span><span>CLI</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Backend">
+          <div class="project-top">
+            <h3 class="project-name">URL Shortener</h3>
+            <div class="project-links">
+              <a href="https://github.com/JukaleManmath/Url--Shortner" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">URL shortener that compresses long links into shareable short URLs, built with a Node.js/Express backend, MongoDB for persistence, and EJS-rendered views.</p>
+          <div class="project-tags">
+            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>EJS</span><span>REST</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skill-filter-bar">
+        <button class="skill-cat-btn active" data-cat="languages">Languages</button>
+        <button class="skill-cat-btn" data-cat="backend">Backend & APIs</button>
+        <button class="skill-cat-btn" data-cat="frontend">Frontend</button>
+        <button class="skill-cat-btn" data-cat="llm">LLM & Agentic</button>
+        <button class="skill-cat-btn" data-cat="genai">Generative AI</button>
+        <button class="skill-cat-btn" data-cat="cloud">Cloud & DevOps</button>
+        <button class="skill-cat-btn" data-cat="data">Data & Databases</button>
+        <button class="skill-cat-btn" data-cat="ml">ML</button>
+        <button class="skill-cat-btn" data-cat="tools">Tools</button>
+      </div>
+
+      <div class="skill-panel" id="skillPanel">
+
+        <div class="skill-section" data-cat="languages">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" onerror="this.style.display='none'"/>Python</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" onerror="this.style.display='none'"/>TypeScript</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" onerror="this.style.display='none'"/>JavaScript</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" onerror="this.style.display='none'"/>C/C++</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" onerror="this.style.display='none'"/>Java</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" onerror="this.style.display='none'"/>SQL</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" alt="" onerror="this.style.display='none'"/>PowerShell</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="" onerror="this.style.display='none'"/>Go</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="backend">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" onerror="this.style.display='none'"/>FastAPI</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="" onerror="this.style.display='none'"/>Flask</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="" onerror="this.style.display='none'"/>Django REST</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" onerror="this.style.display='none'"/>Node.js</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="" onerror="this.style.display='none'"/>Express.js</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" alt="" onerror="this.style.display='none'"/>GraphQL</span>
+          <span class="skill-chip">Celery</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" alt="" onerror="this.style.display='none'"/>SQLAlchemy</span>
+          <span class="skill-chip">Pydantic</span>
+          <span class="skill-chip">REST API</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="frontend">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" onerror="this.style.display='none'"/>React</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="" onerror="this.style.display='none'"/>Next.js</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" onerror="this.style.display='none'"/>HTML5</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" onerror="this.style.display='none'"/>CSS3</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="" onerror="this.style.display='none'"/>Tailwind CSS</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="llm">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/openai/000000" alt="" onerror="this.style.display='none'"/>OpenAI API</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/anthropic/000000" alt="" onerror="this.style.display='none'"/>Claude API</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/langchain/000000" alt="" onerror="this.style.display='none'"/>LangChain</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/langchain/000000" alt="" onerror="this.style.display='none'"/>LangGraph</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/meta/000000" alt="" onerror="this.style.display='none'"/>Llama</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/groq/000000" alt="" onerror="this.style.display='none'"/>Groq</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/amazonwebservices/000000" alt="" onerror="this.style.display='none'"/>Amazon Bedrock</span>
+          <span class="skill-chip">LlamaIndex</span>
+          <span class="skill-chip">MCP</span>
+          <span class="skill-chip">FAISS</span>
+          <span class="skill-chip">RAG</span>
+          <span class="skill-chip">Vector Search</span>
+          <span class="skill-chip">Embeddings</span>
+          <span class="skill-chip">Function Calling</span>
+          <span class="skill-chip">Structured Output</span>
+          <span class="skill-chip">Multi-agent Systems</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="genai">
+          <span class="skill-chip">Fine-tuning</span>
+          <span class="skill-chip">Prompt Engineering</span>
+          <span class="skill-chip">LLMs</span>
+          <span class="skill-chip">Instruction Tuning</span>
+          <span class="skill-chip">RLHF</span>
+          <span class="skill-chip">Context Window Management</span>
+          <span class="skill-chip">System Prompts</span>
+          <span class="skill-chip">Chain-of-Thought</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="cloud">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="" onerror="this.style.display='none'"/>AWS</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="" onerror="this.style.display='none'"/>GCP</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" onerror="this.style.display='none'"/>Docker</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="" onerror="this.style.display='none'"/>Kubernetes</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="" onerror="this.style.display='none'"/>GitHub Actions</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="" onerror="this.style.display='none'"/>Terraform</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" alt="" onerror="this.style.display='none'"/>Vercel</span>
+          <span class="skill-chip">CI/CD</span>
+          <span class="skill-chip">Render</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="data">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" onerror="this.style.display='none'"/>PostgreSQL</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" onerror="this.style.display='none'"/>MongoDB</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="" onerror="this.style.display='none'"/>SQLite</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="" onerror="this.style.display='none'"/>Redis</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/snowflake/000000" alt="" onerror="this.style.display='none'"/>Snowflake</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="" onerror="this.style.display='none'"/>Supabase</span>
+          <span class="skill-chip">pgvector</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="ml">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="" onerror="this.style.display='none'"/>PyTorch</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="" onerror="this.style.display='none'"/>TensorFlow</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="" onerror="this.style.display='none'"/>Scikit-learn</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" alt="" onerror="this.style.display='none'"/>Keras</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/huggingface/huggingface-original.svg" alt="" onerror="this.style.display='none'"/>Hugging Face</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="" onerror="this.style.display='none'"/>OpenCV</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="" onerror="this.style.display='none'"/>NumPy</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="" onerror="this.style.display='none'"/>Pandas</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg" alt="" onerror="this.style.display='none'"/>Spark</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mlflow/mlflow-original.svg" alt="" onerror="this.style.display='none'"/>MLflow</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/openai/000000" alt="" onerror="this.style.display='none'"/>Whisper</span>
+          <span class="skill-chip">XGBoost</span>
+        </div>
+
+        <div class="skill-section hidden" data-cat="tools">
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" onerror="this.style.display='none'"/>Git</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" onerror="this.style.display='none'"/>GitHub</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" onerror="this.style.display='none'"/>VS Code</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cursor/cursor-original.svg" alt="" onerror="this.style.display='none'"/>Cursor</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="" onerror="this.style.display='none'"/>Linux</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="" onerror="this.style.display='none'"/>Jupyter</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="" onerror="this.style.display='none'"/>Postman</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/githubcopilot/000000" alt="" onerror="this.style.display='none'"/>GitHub Copilot</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/anthropic/000000" alt="" onerror="this.style.display='none'"/>Claude Code</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/openai/000000" alt="" onerror="this.style.display='none'"/>ChatGPT</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/notion/000000" alt="" onerror="this.style.display='none'"/>Notion</span>
+          <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/jira/000000" alt="" onerror="this.style.display='none'"/>Jira</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-sub">Open to full-time roles, contract work, and interesting problems.</p>
+      <div class="contact-links">
+        <a href="mailto:jukalemanmath@gmail.com" class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">jukalemanmath@gmail.com</span>
+          <button class="copy-btn" data-copy="jukalemanmath@gmail.com" title="Copy email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/jukalemanmath" target="_blank" class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">linkedin.com/in/jukalemanmath</span>
+          <button class="copy-btn" data-copy="https://www.linkedin.com/in/jukalemanmath" title="Copy link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </a>
+        <a href="https://github.com/JukaleManmath" target="_blank" class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/JukaleManmath</span>
+          <button class="copy-btn" data-copy="https://github.com/JukaleManmath" title="Copy link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Manmath Jukale</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
